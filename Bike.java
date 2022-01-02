@@ -8,12 +8,6 @@
 
 public class Bike extends Vehicle {
 
-    // variables
-    /**
-    * Multiplier for the speed.
-    */
-    private static final int MULTIPLIER = 2;
-
     /**
     * Calling methods from its superclass (Vehicle).
     */
@@ -47,4 +41,10 @@ public class Bike extends Vehicle {
         System.out.println("\nYou cadence was set to " + cadence + " rpm.");
     }
 
+    /**
+    * The ringBell() method lets the user ring their bell.
+    */
+    public void ringBell() {
+        System.out.println("\nRing ring!");
+    }
 }
