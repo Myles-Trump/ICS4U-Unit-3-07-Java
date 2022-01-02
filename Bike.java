@@ -23,6 +23,9 @@ public class Bike extends Vehicle {
 
     // The Bike class has one unique field
 
+    /**
+    * Defining and setting cadence.
+    */
     private int cadence = 0;
 
     // getters
@@ -36,6 +39,8 @@ public class Bike extends Vehicle {
     // methods
     /**
     * The newCadence() method changes the rpm of the bike.
+    * @return nothing
+    * @param inputtedCadence user's new cadence amount
     */
     public int newCadence(final int inputtedCadence) {
         cadence = inputtedCadence;
