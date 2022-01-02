@@ -8,12 +8,6 @@
 
 public class Bike extends Vehicle {
 
-    // variables
-    /**
-    * Multiplier for the speed.
-    */
-    private static final int MULTIPLIER = 2;
-
     /**
     * Calling methods from its superclass (Vehicle).
     */
