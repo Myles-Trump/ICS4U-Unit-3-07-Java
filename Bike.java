@@ -39,6 +39,7 @@ public class Bike extends Vehicle {
     public int newCadence(final int inputtedCadence) {
         cadence = inputtedCadence;
         System.out.println("\nYou cadence was set to " + cadence + " rpm.");
+        return cadence;
     }
 
     /**
